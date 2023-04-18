@@ -1,6 +1,6 @@
 # Angular CRUD By [Sotobotero](http://sotobotero.com)
 
-## Como contribuir con este proyecto.
+## Como contribuir cone ste proyecto.
 
 1. Primero, necesitas hacer un fork del repositorio al que deseas contribuir. Esto creará una copia del repositorio en tu cuenta de GitHub. Puedes hacer un fork de un repositorio haciendo clic en el botón "Fork" en la esquina superior derecha de la página del repositorio. 
 
