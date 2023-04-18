@@ -33,8 +33,8 @@ git branch -M master
 
 # Commits the tracked changes and prepares them to be pushed to a remote repository. 
 git commit -m "$commit_message"
-#protect direct push to master
-git config branch.master.pushRemote no_push
+
+
 # Create a new branch
 git branch develop master
 
