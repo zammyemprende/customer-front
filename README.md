@@ -27,8 +27,10 @@
 1. Instalar [Node.js LTS](https://nodejs.org/es/) (v18.16.0) o superior y [Angular CLI](https://cli.angular.io/) (v13) o superior.
 2. Opcional: Clonar e iniciarlizar el backend de la aplicación [customer-back](https://github.com/sotobotero/customer-back), si no se tiene el backend, la aplicación solo cargrá el front pero no tendra conexión a un back.
 ### Instalación
-2. Instalar los paquetes de npm con el comando `npm install`.
-2. Ejecutar el comando `ng serve --configuration=production` para un servidor de desarrollo. Navegar a `http://localhost:4200/customers`. 
+1. Clonar el repositorio
+2. Entrar a la carpeta del proyecto
+3. Instalar los paquetes de npm con el comando `npm install`.
+4. Ejecutar el comando `ng serve --configuration=production` para un servidor de desarrollo. Navegar a `http://localhost:4200/customers`. 
 La aplicación se recargará automáticamente si se cambia alguno de los archivos de origen.
 
 
@@ -53,13 +55,14 @@ La aplicación se recargará automáticamente si se cambia alguno de los archivo
 
 ## Requirements
 1. Install Node.js LTS (v18.16.0) or later and Angular CLI (v13) or later.
-
 2. Optional: Clone and start the backend of the [customer-back](https://github.com / sotobotero / customer-back) application, if you don't have the backend, the application will only load the front but will have no connection to a backend.
 
 
 ## Installation
-1. Install npm packages with the command npm install.
-2. Run the command ng serve --configuration=production for a development server. Navigate to http://localhost:4200/customers.
+1. Clone the repository
+2. Enter the project folder
+3. Install npm packages with the command npm install.
+4. Run the command ng serve --configuration=production for a development server. Navigate to http://localhost:4200/customers.
 The application will reload automatically if any of the source files are changed.
 
 
