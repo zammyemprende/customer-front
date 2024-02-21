@@ -11,9 +11,6 @@ jobs:
     steps:
       - name: pull and checkout from git repository
         uses: actions/checkout@v3
-      - run: |
-          echo "pulling and checking out git repository"
-
 
       - name: setup node 18
         uses: actions/setup-node@v3
@@ -29,5 +26,18 @@ jobs:
       - name: run test and build angular app
         run: |
           ng test --watch=false
-          ng build 
-          echo "run test and build angular app"
+          ng build
+          echo "Angular build completed"
+
+      - name: setup java 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin' # o la distribución que prefieras
+
+      - name: build with maven
+        run: mvn clean install
+        # O si estás usando Gradle, podrías tener un paso como:
+        # - run: ./gradlew build
+
+      # Puedes seguir con pasos adicionales para desplegar o probar tu aplicación Java
